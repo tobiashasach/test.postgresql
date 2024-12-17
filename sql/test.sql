@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS test;
+
+CREATE TABLE test (
+    id SERIAL PRIMARY KEY
+);
+
+INSERT INTO test (id)
+VALUES (1234);
+
+SELECT * FROM test;

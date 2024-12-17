@@ -1,0 +1,9 @@
+# data
+data/
+
+# target
+target/
+
+# environment
+.env*
+!.env.example

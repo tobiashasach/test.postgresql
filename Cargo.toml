@@ -1,0 +1,9 @@
+[package]
+name = "test_postgresql"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+postgres = "0.19.9"
+dotenvy = "0.15.7"
+
